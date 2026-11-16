@@ -1,0 +1,17 @@
+{
+  "name": "calmrr",
+  "version": "1.0.0",
+  "description": "CalmRR - a party game controlled by your pulse and breathing (Presage SmartSpectra SDK)",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron .",
+    "start:live": "electron . --live",
+    "test": "node test.js"
+  },
+  "dependencies": {
+    "@smartspectra/node-sdk": "3.5.0"
+  },
+  "devDependencies": {
+    "electron": "^33.0.0"
+  }
+}
